@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header */
+
+.header{
+      background: rgb(143,240,125);
+      background: radial-gradient(circle, rgba(143,240,125,1) 0%, rgba(148,233,228,1) 54%);
+}
+.navbar{
+    padding-top: 20px !important;
+    /* border-bottom:3px solid white ; */
+
+
+}
+a .navbar-brand fw-bold{
+    color: white;
+    font-weight: bolder;
+}
+
+a .navbar-brand fw-bold:hover{
+    color: #fff;
+    
+}
+/* .nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+
+} */
+/* .nav-link{
+    
+    color: #fff !important;
+    font-size: 18px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+} */
+.fa-bars{
+    color: #fff;
+    font-size: 25px  !important;
+}
+.nav-link{
+    color: #fff;
+}
+
+.navbar-toggler{
+    border: 0;
+    outline: none;
+    padding: initial;
+}
+
+.active-home{
+    
+    border: 1.5px solid white;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+
+.banner{
+    margin-top: 8%;
+    color: #fff;
+}
+
+.banner h1{
+    margin: 60px 0 40px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.banner img{
+    max-height: 1000px;
+    max-width: 725px;
+    padding-bottom: 100px;
+    padding-right: 210px;
+    
+}
+
+.banner p{
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display:inline-block;
+    background: rgb(45,135,210);
+    background: linear-gradient(179deg, rgba(45,135,210,1) 0%, rgba(107,210,115,1) 91%);
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.banner a:hover{
+    color: #000 !important;
+
+}
+.express-btn{
+   background: #80ced6 !important;
+    color: #fff!important;
+    margin-right: 5px !important;
+}
+
+/*services*/
+
+.service{
+    margin: 75px 0;
+    
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.subtitle{
+
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.bi-sun{
+    width: 60px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.service-box h6{
+    
+    margin-bottom: 40px;
+    font-size: bold;
+}
+
+.service-box p{
+    margin-bottom: 14px;
+    color: #808080;;
+}
+
+.fa fa-arrow-right{
+    font-size: 22px !important;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.service-box:hover{
+    background: #51d3c4;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 15px 2px rgba(213, 213, 213, 0.5);
+}
+.service-box:hover p{
+    color: #fff;
+}
+
+/* footer */
+
+.footer{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding-top: 5px;
+
+}
+.footer h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 70px 0;
+
+}
+.footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+::placeholder{
+    color: #efefef;
+    font-size: 18px;
+}
+.footer button{
+    padding: 6px;
+    width: 180px;
+    
+    margin: auto;
+    display: block;
+    color: #fff;
+    border: 1px solid white;
+    font-size:20px ;
+    background: transparent;
+
+}
+.footer button:hover{
+    padding: 6px;
+    width: 180px;
+    
+    margin: auto;
+    display: block;
+    color: #000;
+    border: 1px solid white;
+    font-size:20px ;
+    background: white;
+
+}
+small{
+    font-size: 14px;
+    padding: 70px;
+    padding-bottom: 20px;
+    color: #fff;
+    display: block;
+
+}
